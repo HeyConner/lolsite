@@ -6,7 +6,7 @@ export default Ember.Component.extend({
       var params = {
         name: this.get('name')
       };
-      this.sendAction('nameLookup', params);
+      this.sendAction('sendLookup', params);
     }
   }
 });

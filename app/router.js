@@ -6,7 +6,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('results', {path: '/results/:name'});
+  this.route('match', {path: 'match/:match_id'});
 });
 
 export default Router;
